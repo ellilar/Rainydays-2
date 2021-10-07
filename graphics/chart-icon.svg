@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.21" height="24.426" viewBox="0 0 28.21 24.426">
+  <g id="ikon_handlevogn" transform="translate(0 1)">
+    <path id="Path_270" data-name="Path 270" d="M2080.558,6117.533h6.054l3.372,17.526h14.546" transform="translate(-2080.558 -6117.533)" fill="none" stroke="#422f21" stroke-width="2"/>
+    <path id="Path_271" data-name="Path 271" d="M2097.132,6135.157h16.089l2.262-10.416h-20.346" transform="translate(-2088.513 -6121.466)" fill="none" stroke="#422f21" stroke-width="2"/>
+    <g id="Ellipse_5" data-name="Ellipse 5" transform="translate(9.247 19.426)" fill="#fff" stroke="#422f21" stroke-width="2">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1" fill="none"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" transform="translate(20.247 19.426)" fill="#fff" stroke="#422f21" stroke-width="2">
+      <circle cx="2" cy="2" r="2" stroke="none"/>
+      <circle cx="2" cy="2" r="1" fill="none"/>
+    </g>
+  </g>
+</svg>
