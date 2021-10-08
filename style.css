@@ -289,10 +289,10 @@ footer {
   margin-right: 24px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   h2 {
-    font-size: 32px;
-    line-height: 30px;
+    font-size: 54px;
+    line-height: 50px;
   }
  
   #desktop-nav {
@@ -305,25 +305,21 @@ footer {
   }
  
   #slider-container{
-    height: 650px;
+    height: 50%;
    justify-content: center;
   }
  
   .slide {
     flex-direction: column;
+    display: block;
   }
 
   .slide img{
     height: 400px;
-    width: 500px;
+    width: flex;
     padding: 25px;
   }
 
   .slide img:nth-child(1) {
     display: none;
-  }
-
-  .footer {
-    justify-content: flex;
-    padding: 24px;
   }
