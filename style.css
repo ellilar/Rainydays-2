@@ -4,6 +4,7 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+  border: 2px ;
 }
 
 html,
@@ -288,16 +289,41 @@ footer {
   margin-right: 24px;
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 900px) {
   h2 {
     font-size: 32px;
     line-height: 30px;
   }
+ 
   #desktop-nav {
     display: none;
   }
+ 
   #mobile-nav {
     display: flex;
     justify-content: space-between;
   }
-}
+ 
+  #slider-container{
+    height: 650px;
+   justify-content: center;
+  }
+ 
+  .slide {
+    flex-direction: column;
+  }
+
+  .slide img{
+    height: 400px;
+    width: 500px;
+    padding: 25px;
+  }
+
+  .slide img:nth-child(1) {
+    display: none;
+  }
+
+  .footer {
+    justify-content: flex;
+    padding: 24px;
+  }
