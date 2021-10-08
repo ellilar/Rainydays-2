@@ -316,7 +316,7 @@ footer {
 
   .slide img{
     height: 400px;
-    width: flex;
+    width: 100%;
     padding: 25px;
   }
 
