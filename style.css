@@ -15,15 +15,11 @@ body {
   color: #422f21;
 }
 
-body {
-  max-width: 1400px;
-  margin: 0 auto;
-  color: red;
-}
 
 .page2 {
   background-image: url(/images/background-image.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -159,9 +155,9 @@ header nav a:hover {
 }
 
 main {
-  margin-top: 148px;
   padding: 24px;
-
+  max-width: 1400px;
+  margin: 148px auto 0 auto;
 }
 
 .main-page1{
@@ -338,7 +334,7 @@ footer {
     line-height: 50px;
   }
  
-  #desktop-nav {
+  #desktop-na,v {
     display: none;
   }
  
