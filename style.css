@@ -18,6 +18,12 @@ body {
 body {
   max-width: 1400px;
   margin: 0 auto;
+  color: red;
+}
+
+.page2 {
+  background-image: url(/images/background-image.png);
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -57,8 +63,7 @@ a {
 a.button {
   display: inline-block;
   padding: 12px 18px;
-  font-weight: medium;
-  font-family: akagi-pro, sans-serif;
+  font-family: "akagi-pro", sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -156,7 +161,16 @@ header nav a:hover {
 main {
   margin-top: 148px;
   padding: 24px;
+
+}
+
+.main-page1{
   background-color: #f2f1e2;
+}
+
+.page-intro {
+  width: 300px;
+  font-family: Hatch Light
 }
 
 #slider-container {
@@ -257,6 +271,35 @@ footer .footer_content {
 
 .product-list-cta {
   margin-left: auto;
+}
+
+.jacket-list {
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.jacket-preview {
+  height: 350px;
+  width: 300px;
+  padding: 52px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.jacket-preview img {
+  display: block;
+  height: 100%;
+  margin-bottom: 16px;
+}
+
+.jacket-preview-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 footer {
