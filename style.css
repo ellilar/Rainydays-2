@@ -15,13 +15,6 @@ body {
   color: #422f21;
 }
 
-
-.page2 {
-  background-image: url(/images/background-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1 {
   font-family: "Hatch Bold";
   font-size: 120px;
@@ -73,6 +66,27 @@ a.button.pos {
 a.button.neg {
   background: #422f21;
   color: #f2f1e2;
+}
+
+.page2 {
+  background-image: url(/images/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 148px auto 0 auto;
+}
+
+.main-page1{
+  background-color: #f2f1e2;
+}
+
+.main-contact {
+  background-color: #F2F1E2;
+  margin: 148px 72px 0 72px;
 }
 
 header {
@@ -154,20 +168,6 @@ header nav a:hover {
   margin: 6px 0px;
 }
 
-main {
-  padding: 24px;
-  max-width: 1400px;
-  margin: 148px auto 0 auto;
-}
-
-.main-page1{
-  background-color: #f2f1e2;
-}
-
-.main-contact {
-  background-color: #F2F1E2;
-  margin: 148px 72px 0 72px;
-}
 
 .title{
   padding-left: 72px;
@@ -355,7 +355,6 @@ footer .footer_content {
 .contact-form input[type=text], select, textarea {
   font-family: akagi-pro;
   display: flex;
-  justify-content: right;
   width: 300px;
   padding: 12px;
   border: 1px #422f21;
@@ -374,6 +373,7 @@ footer .footer_content {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+}
 
 .preview-product-title, .preview-product-price, .preview-product-description {
   display: inline-block;
@@ -394,7 +394,7 @@ footer .footer_content {
 }
 
 
-footer {
+.footer {
   padding: 24px;
   max-width: 1400px;
   margin: 0 auto;
